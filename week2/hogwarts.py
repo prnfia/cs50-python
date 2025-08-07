@@ -6,3 +6,5 @@ for i in range(len(students)):
 
 
 #2nd variation:
+students = ["Hermione", "Harry", "Ron", "Draco"]
+houses = ["Gryffindor", "Gryffindor", "Gryffindor", "Slytherin"]
