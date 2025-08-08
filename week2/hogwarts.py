@@ -1,11 +1,11 @@
-#1st variation:
+#1st version:
 students = ["Hermione", "Harry", "Ron"]
 
 for i in range(len(students)):
     print(i + 1, students[i])
 
 
-#2nd variation:
+#2nd version:
 students = {
     "Hermione": "Gryffindor", 
     "Harry": "Gryffindor", 
@@ -16,7 +16,7 @@ students = {
 for student in students:
     print(student, students[student], sep=", ") 
 
-#3rd variation
+#3rd version:
 students = [   
     {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
