@@ -5,7 +5,7 @@ def main():
     artist = input("Artist: ")
 
     try:
-        response = requests.get("httprs://api.artic.edu/api/v1/artworks/search",
+        response = requests.get("https://api.artic.edu/api/v1/artworks/search",
         {"q": artist}
         )
         response.raise_for_status()
